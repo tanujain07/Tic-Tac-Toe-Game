@@ -4,9 +4,9 @@
     padding: 0;
 }
 nav{
-    background-color: aqua;
+    background-color:rgb(205, 50, 102);
     height: 65px;
-    color: blue;
+    color:rgb(241, 169, 181) ;
     font-size: 36px;
     align-items: center;
     padding: 0 13px;
@@ -18,9 +18,14 @@ nav ul{
     font-family: 'Roboto', sans-serif;
 }
 .gamecontainer{
-    background-color: blue;
-    
+    background-color: rgb(205, 50, 102);
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
 }
 .container{
-
+   
+}
+.boxes, .gameinfo{
+    color:rgb(241, 169, 181);
 }
