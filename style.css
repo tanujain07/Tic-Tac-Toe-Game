@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -24,8 +25,19 @@ nav ul{
     margin-top: 70px;
 }
 .container{
-   
+   display: grid;
+   grid-template-columns: repeat(3,10vw);
+   grid-template-rows: repeat(3, 10vw);
 }
 .boxes, .gameinfo{
     color:rgb(241, 169, 181);
+    font-family: 'Roboto', sans-serif;
+}
+.boxes{
+    border: 2.5px solid rgb(241, 169, 181);
+    font-size: 8vw;
+    cursor: pointer;
+}
+.boxes:hover{
+    background-color:rgb(139, 44, 60)
 }
